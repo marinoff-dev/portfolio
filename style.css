@@ -1,0 +1,173 @@
+body {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    height: 80px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(228, 38, 38, 0.15 );
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #111;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: turquoise;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topnav {
+    
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+
+section {
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sec {
+    margin: 0px 10%;
+}
+
+.left {
+    float: left;
+    width: 30%;
+}
+
+.right {
+    float: left;
+    width: 70%;
+}
+
+.cleft, .cright, .sousLeft, .sousRight {
+    width: 50%;
+    float: left;
+}
+
+.sec::after, exp::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+a svg {
+    transition: all .5s ease;
+    }
+
+
+#ico {
+    display: none;
+}
+
+.menu {
+    background-color: #000;
+    display: none;
+    padding: 5px;
+    width: 320px;
+    }
+
+a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 20px 12px 12px 20px;
+    margin: 3px 0;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+footer {
+    text-align: center;
+    padding-top: 30px;
+    height: 80px;
+    background-color: midnightblue;
+    border-top: 2px solid #AAA;
+    color: #fff;
+}
+
+.presentation {
+    border-top: 5px solid  #4C8;
+    background-color: rgba(64, 200, 130, 0.15);
+}
+
+.parcours {
+    border-top: 5px solid  #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+
+.competence {
+    border-top: 5px solid  #0070BB;
+    background-color: rgba(000, 112, 192, 0.15);
+}
+
+
+
+.color1 {color: #000000;}
+.color2 {color: #002844;}
+.color3 {color: #006096;}
+.color4 {color: #00a0f5;}
+.color5 {color: #00e9ff;}
